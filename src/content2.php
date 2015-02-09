@@ -1,9 +1,9 @@
 <?php
 //http://php.net/manual/en/function.session-start.php
-	session_start ();
+	session_start();
 	if(session_status() == PHP_SESSION_ACTIVE){
 		if(empty($_SESSION['username'])) {
-			echo '<a href="../src/content1.php">Go to Page Content 1 </a>';
+			echo '<a href="../bauerbr/src/content1.php">Go to Page Content 1 </a>';
 		}	
 		if(empty($_SESSION['username']) == FALSE) {
 			$_SESSION['visits'] = $_SESSION['visits'] + 1;

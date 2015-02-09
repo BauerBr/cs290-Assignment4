@@ -44,13 +44,9 @@ if (empty($_GET["min-multiplier"])) {
 }
 
 $min_multiplicand = htmlspecialchars($_GET["min-multiplicand"]);
-echo "$min_multiplicand <br>";
 $max_multiplicand = htmlspecialchars($_GET["max-multiplicand"]);
-echo "$max_multiplicand <br>";
 $max_multiplier = htmlspecialchars($_GET["max-multiplier"]);
-echo $max_multiplier;
 $min_multiplier = htmlspecialchars($_GET["min-multiplier"]);
-echo $min_multiplier;
 
 if ($max_multiplier < $min_multiplier){
 	echo "Min multiplier larger than max multiplier. <br>";
@@ -62,18 +58,6 @@ if ($max_multiplicand < $min_multiplicand){
 
 //http://php.net/manual/en/function.empty.php
 
-if (empty($_GET["min-multiplicand"])) {
-   echo "min_multiplicand is empty <br>";
-}
-if (empty($_GET["max-multiplicand"])) {
-   echo "max_multiplicand is empty <br>";
-}
-if (empty($_GET["max-multiplier"])) {
-   echo "min_multiplier is empty <br>";
-}
-if (empty($_GET["min-multiplier"])) {
-   echo "min_multiplier is empty <br>";
-}
 ?>
 <?php
 
