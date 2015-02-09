@@ -1,0 +1,21 @@
+Start: Mon, 2 Feb 2015 11:21:05 -0800
+End: Mon, 2 Feb 2015 13:22:32 -0800
+Tasks: Began assignment was able to get multiplication working but it wasn't going into a table
+
+Start: Tue, 3 Feb 2015 15:05:23 -0800
+End: Tue, 3 Feb 2015 16:02:54 -0800
+Tasks: Figured out multiplication table began working on loopback.php
+
+Start: Tue, 3 Feb 2015 21:05:23 -0800
+End: Tue, 3 Feb 2015 23:02:54 -0800
+Tasks: Was able to complete loopback and began work on login.php
+Was able to get the _POST variable into a _SESSION variable.
+
+Start: Sat, 7 Feb 2015 21:05:23 -0800
+End: Sat, 7 Feb 2015 23:02:54 -0800
+Tasks: Completed the assignment. Will run some tests tomorrow.
+
+Start: Sun, 8 Feb 2015 20:16:10 -0800
+End: Sun, 8 Feb 2015 21:02:32 -0800
+Tasks: Good to go. Pushed everything to my repository. 
+
